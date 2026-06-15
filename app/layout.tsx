@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Test_NgoHoangCuong",
-  description: "Video watching app by Ngo Hoang Cuong",
+  description: "Video watching app by Cuong",
 };
 
 export default function RootLayout({
