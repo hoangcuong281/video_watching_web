@@ -12,7 +12,7 @@ type VideoCardProps = {
 };
 
 
-export default function VideoCard({video, isActive, muted, setMuted}: VideoCardProps) {
+export default function VideoCard({video, muted, setMuted}: VideoCardProps) {
     
     const [isPaused, setIsPaused] = useState(false);
     const videoRef = useRef<HTMLVideoElement>(null);
